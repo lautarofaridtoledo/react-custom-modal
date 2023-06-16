@@ -35,14 +35,7 @@ const App:FC<Props> = ({toggle, children}) => {
            modalWidth={'lg'}
            alignment={'center'}
        >
-           {/*{children}*/}
-           <ChildrenTest>
-               <h1>Contenido premium</h1>
-               <p>Lorem 🇦🇷 ipsum dolorem ets </p>
-               <p>Donec vel risus tellus. Sed purus est, fringilla quis ultricies non, euismod eget sapien. Vestibulum lorem metus, tincidunt in hendrerit vitae, lobortis non neque. Pellentesque pharetra ut ipsum in egestas. Cras id eros convallis, faucibus neque euismod, maximus magna. Maecenas ac vulputate ligula. Vivamus porttitor pretium urna id dignissim. Duis quis semper arcu. Integer in egestas enim. Suspendisse potenti. Sed eleifend leo nunc, quis feugiat metus cursus ac. Fusce venenatis ipsum a turpis rutrum fringilla.
-
-                   Donec in diam eu massa scelerisque finibus. Nullam ut bibendum diam, maximus ullamcorper massa. Donec vitae augue venenatis, lacinia mauris a, scelerisque ipsum. Praesent a iaculis magna. Donec eget accumsan nibh, et ullamcorper leo. Praesent pellentesque lectus ac lorem aliquet accumsan. Morbi sodales lectus quis arcu accumsan consectetur.</p>
-           </ChildrenTest>
+           {children}
        </CustomModal>
     </>
   )
